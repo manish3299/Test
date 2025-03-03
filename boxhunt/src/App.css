@@ -1,0 +1,37 @@
+
+
+.playArea{
+display:grid;
+grid-template-columns: repeat(6,1fr);
+width:400px;
+
+border:1px solid black;
+}
+
+.header{
+  display: flex;
+  
+  align-items: center;
+  width:400px;
+}
+
+.cells{
+  height:20px;
+  width:30px;
+  border: 1px solid rgb(73, 60, 60);
+}
+
+.selectedCell{
+  background-color: red;
+}
+
+.td,th,table{
+  border: 1px solid black;
+  color: black;
+  height: 10px;
+  font-size: larger;
+}
+
+form{
+  display: inline;
+}
